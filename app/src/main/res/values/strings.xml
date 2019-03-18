@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Ticky Tacky</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_singlePlayer">Singleplayer</string>
+    <string name="button_multiPlayer">Multiplayer</string>
+    <string name="button_matchHistory">Match History</string>
+    <string name="singlePlayerText">Singleplayer started</string>
+    <string name="multiPlayerText">Multiplayer started</string>
+    <string name="fragmentSinglePlayerText">blank fragment for singleplayer</string>
+    <string name="fragmentMultiPlayerText">blank fragment for multiplayer</string>
+    <string name="gameButtonDescription">X or O Game-Button</string>
+    <string name="gameGridDescription">Grid for background in the game modes</string>
+    <string name="player1Win">Player1 Wins</string>
+    <string name="player2Win">Player2 Wins</string>
+    <string name="playAgain">Play again?</string>
+    <string name="playerDraw">Draw</string>
+    <string name="player1Name">Player 1 Name</string>
+    <string name="player2Name">Player 2 Name</string>
+    <string name="player1Hint">Insert name for player1</string>
+    <string name="player2Hint">Insert name for player2</string>
+    <string name="httpDescription">Loads http image</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

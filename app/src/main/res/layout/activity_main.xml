@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/Base.ThemeOverlay.AppCompat.Dark"
+    android:background="@android:color/background_light"
+    android:screenOrientation="portrait"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    <Button
+        android:id="@+id/button_singlePlayer"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="211dp"
+        android:background="@color/player1"
+        android:padding="@dimen/default_gap"
+        android:text="@string/button_singlePlayer" />
+
+    <Button
+        android:id="@+id/button_multiPlayer"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="285dp"
+        android:background="@color/player2"
+        android:padding="@dimen/default_gap"
+        android:text="@string/button_multiPlayer" />
+
+    <Button
+        android:id="@+id/button_matchHistory"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageTitle"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/darker_gray"
+        android:padding="@dimen/default_gap"
+        android:text="@string/button_matchHistory"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/imageTitle"
+        android:layout_width="308dp"
+        android:layout_height="398dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:contentDescription="@string/gameGridDescription"
+        app:srcCompat="@drawable/titlebackground" />
+
+    <EditText
+        android:id="@+id/player1Name"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="172dp"
+        android:ems="10"
+        android:hint="@string/player1Hint"
+        android:inputType="textPersonName"
+        android:shadowColor="@color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:textColor="@color/player1" />
+
+    <EditText
+        android:id="@+id/player2Name"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/player1Name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-172dp"
+        android:ems="10"
+        android:hint="@string/player2Hint"
+        android:inputType="textPersonName"
+        android:shadowColor="@color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:textColor="@color/player2" />
+
+</RelativeLayout>
